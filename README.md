@@ -1,4 +1,4 @@
-md
+
 🤖 AI-Powered Bug Classification System
 A sophisticated task management system that leverages machine learning to automatically classify and prioritize bug reports using historical Eclipse bug data. The system provides real-time predictions and an intuitive Streamlit interface for task management.
 
