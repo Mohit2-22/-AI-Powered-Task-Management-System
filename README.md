@@ -3,24 +3,29 @@
 A sophisticated task management system that leverages machine learning to automatically classify and prioritize bug reports using historical Eclipse bug data. The system provides real-time predictions and an intuitive Streamlit interface for task management.
 
 🎯 Features
+
 🔍 Intelligent Bug Classification
 
 Automatic product category prediction (e.g., Capella, Platform, Community)
 Smart priority level assignment (P1-P5)
 Automatic developer assignment based on product category
+
 📊 Task Management
 
 Real-time task analysis and classification
 Interactive task submission interface
 Comprehensive task history tracking
 Task export functionality (CSV format)
+
 🎨 User Interface
 
 Clean, modern Streamlit interface
 Intuitive task submission form
 Detailed task analysis results
 Organized task history view
+
 🛠️ Technologies Used
+
 Programming Language
 
 Python 3.x
@@ -39,7 +44,9 @@ Data Processing
 pandas
 NumPy
 joblib (model serialization)
+
 🏗️ Architecture
+
 Data Processing Layer
 
 Text preprocessing using NLTK
@@ -56,7 +63,9 @@ Streamlit web interface
 Real-time prediction pipeline
 Task history management
 Data export functionality
+
 📦 Installation and Setup
+
 Clone the Repository
 
 git clone <repository-url>
@@ -67,7 +76,9 @@ pip install -r requirements.txt
 Run the Application
 
 streamlit run jupyterNotebook/app.py
+
 🤖 Models Used
+
 Product Category Classifier
 
 Model: Multinomial Naive Bayes
@@ -87,7 +98,9 @@ Text Vectorizer
 TF-IDF Vectorizer
 Max Features: 3000
 File: tfidf_vectorizer.joblib
+
 📊 Data Processing Flow
+
 Text Preprocessing
 
 Remove non-alphanumeric characters
@@ -104,7 +117,9 @@ Vectorize input text
 Predict product category and priority
 Assign developer based on category
 Store task in history
+
 🚀 Future Scope
+
 Model Improvements
 
 Implement deep learning models (BERT, RoBERTa)
@@ -127,6 +142,7 @@ Advanced filtering and sorting
 Custom themes and layouts
 Interactive visualizations
 Mobile-responsive design
+
 👥 Development Team
 Backend & ML Engineering: [Mohit prajapati]
 Data Science: [Mohit prajapati]
